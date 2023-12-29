@@ -11,7 +11,7 @@ import java.util.*;
 public class FileWriterController{
         public static ArrayList<Order> fileOrderArrayList = new ArrayList<>();
         //Creates a static array list to store orders in
-        private static File file = new File("savedData.txt");
+        private static File file = new File("RestaurantApp/savedData.txt");
         //Creates a static file to save the orders in
         OrderData orderData = new OrderData();
 
